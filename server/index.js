@@ -35,5 +35,5 @@ io.on("connection", (socket)=>{
 })
 
 server.listen(3000, ()=>{
-    console.log("Server is running on " + server.port);
+    console.log("Server is running on 3000");
 })
