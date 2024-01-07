@@ -29,11 +29,11 @@ function App() {
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
       <div>
-        <input type="text" placeholder='Room number' value={room} onChange={(e) => { setRoom(e.target.value) }} />
+        <input type="text" placeholder='Room number' value={room} onChange={(e) => { setRoom(e.target.value) }} className='inputMsg' />
         <button onClick={joinRoom} type="button">Join Room</button>
       </div>
       <div>
-        <input type="text" placeholder='Message....' value={msg} onChange={(e) => { setMsg(e.target.value) }} />
+        <input type="text" placeholder='Message....' value={msg} onChange={(e) => { setMsg(e.target.value) }} className='inputMsg' />
         <button onClick={sendMessage} type="button">Send Message</button>
         <h3> Message: {msgReceived}</h3>
       </div>

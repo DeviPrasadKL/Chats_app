@@ -66,3 +66,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.inputMsg{
+  margin: 1rem 1rem;
+  height: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
